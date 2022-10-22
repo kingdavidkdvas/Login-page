@@ -127,3 +127,81 @@ a.btn-forget-password{
     outline-style: none;
     border: none;
 }
+/* REGISTRATION STLYE */
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.content{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.form-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+.rg-form{
+    border: 2px solid;
+    border-radius: 0.3cm;
+    border-color:darkgreen;
+    padding: 10px;
+}
+.head{
+    text-align: center;
+    padding-top: 5px;
+    padding: 20px
+}
+.head .rg{
+    color: darkgreen;
+}
+.fm-items{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.fm-infor{
+    padding-bottom: 3px;
+
+}
+.fm-input{
+    border: 1px solid;
+    border-radius: 0.3cm;
+    border-color: darkgreen;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.form-input:focus{
+    outline-style: outset;
+    outline-color: darkgreen;
+}
+.btn-rg{
+    background-color: darkgreen;
+    border: none;
+    border-radius: 0.3cm;
+    margin-top: 5px;
+    padding: 4px;
+    color: white;
+}
+.infor{
+    margin-top: 12px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.infor a{
+    color: darkgreen;
+}

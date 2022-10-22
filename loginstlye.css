@@ -26,53 +26,104 @@ body{
     margin-top: 80px;
     border: 1.5px solid;
     border-radius: 0.2cm;
-    border-color: rgb(218, 38, 113);;
+    border-color: rgb(251, 2, 197);;
     width: auto;
-    background-color:rgb(218, 38, 113);
+    background-color: crimson;
+    
 }
 .form-group{
-    background-color: whitesmoke;
+    background-image: url(./img/fruit-background.jpg);
+    background-size: cover;
+    background-color: transparent;
     margin-top: 4px;
     border-radius: 0.2cm;
+    
 }
 .items{
     width: 100%;
     text-align: center;
     padding-top: 5px;
     margin-right: 10px;
+    display:block;
 }
 .heading{
     padding-top: 10px;
     padding-bottom: 5px;
 }
 .form-infor{
-    padding-right: 3px;
-    font-weight: 400;
+    padding-left: 150px;
+    padding-top: 9px;
+    font-weight: bolder;
     font-size: 20px;
     font-family:cursive;
+    color: rgb(252, 16, 91);
+    display: flex;
 }
+
 .form-input{
     padding: 5px;
-    border: 1.9px solid;
+    border: 2px solid;
     border-radius: 5cm;
-    border-color: pink;
-
+    border-color: rgb(243, 239, 239);
+    background-color: white;
+    opacity: 0.6;
 }
 .btn-input{
     width: 50%;
     padding: 3px;
     margin-top: 5px;
     cursor: pointer;
-    background-color:rgb(218, 38, 113);
-    border-radius: 2cm;
+    background-color:rgb(70, 23, 225);
+    border-radius: 1cm;
     border: none;
     font-family: serif;
     font-weight: bold;
     font-size: 15px;
-    color:whitesmoke;
+    color:rgba(249, 248, 248, 0.9);
+   
 
 }
 .btn-input:hover{
-    background-color: rgb(38, 8, 20);
+    background-color: rgb(130, 115, 237);
+}
+.forget-password{
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: bold;
+    color: crimson;
+    text-decoration: none;
+}
+.register-items{
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.member{
+    font-size: 15px;
+    font-weight:bold;
+    color: rgb(217, 108, 128);
+}
+.btn-register{
+    font-size: 15px;
+
+}
+.username{
+    font-size: 13px;
+    font-family: cursive;
+    background-color: transparent;
+    color: grey;
+    font-weight: bolder;
+
     
+
+}
+a.btn-forget-password{
+    color: rgb(124, 108, 111);
+    text-decoration: none;
+}
+
+.btn-input:focus{
+    box-shadow: none;
+    outline-style: none;
+    border: none;
 }

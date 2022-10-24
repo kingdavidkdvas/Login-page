@@ -205,3 +205,92 @@ a.btn-forget-password{
 .infor a{
     color: darkgreen;
 }
+/* CONTACT STYLING */
+.master-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.sub-container{
+    padding: 5px; display: flex;
+    flex-direction: column;
+}
+.mini-container{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    width: 400px;
+    border: 3px solid;
+    border-radius: 0.9cm;
+    border-color: darkgreen;
+}
+.contact-fm{
+    width: 100vw;
+    height: inherit;
+}
+.contact-head{
+    font-size: x-large;
+    font-family: serif;
+    font-weight: bolder;
+    color:darkgreen;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+.con-items{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 3px;
+    color: darkgreen;
+}
+.con-info{
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: 3px;
+    color: darkgreen;
+    font-family: cursive;
+}
+.con-input{
+    font-size: 15px;
+    padding: 3px;
+    margin: 3px;
+    color: darkgreen;
+    border-radius: 0.5cm;
+    border-color: darkgreen;
+    font-family: cursive;
+    padding-left: 15px;
+}
+.con-message{
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 20px;
+    color: darkgreen;
+    padding-bottom: 5px;
+}
+.texthere{
+    padding-left: 10px;
+    border: none;
+    color: darkgreen;
+    font-family: monospace;
+}
+.btn-submit{
+    background-color: darkgreen; 
+    text-decoration: none;
+    border-radius: 0.9cm;
+    border: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.btn-submit:hover{
+    background-color: rgb(10, 32, 10);
+}
